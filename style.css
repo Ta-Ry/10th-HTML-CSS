@@ -59,10 +59,6 @@ main
 	background-position: center;
 }
 
-.text
-{
-	width: 280px;
-}
 .box-text-content
 {
 	background-position: bottom;
@@ -83,23 +79,19 @@ main
 {
 	main
 	{
-		width: 90%;
+		width: 100%;
 	}
 	.boxes
 	{
 		width: 90%;
 		float: none;
-		margin-right: 0;
+		margin: 0 auto;
 		margin-bottom: 20px;
 	}
 	.boxes:last-child
 	{
-		margin-bottom: 0px;
+		margin: 0 auto;
 	}
-	.text
-	{
-		width: 90%;
-		height: 90%;
-	}
+
 
 }
